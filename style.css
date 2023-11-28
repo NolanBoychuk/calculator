@@ -1,0 +1,71 @@
+#mainContainer {
+    height:533px;
+    width:426px;
+    display:flex;
+    flex-direction:column;
+    border:solid;
+    border-width:2px;
+    border-color:black;
+}
+body {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+#resultContainer {
+    height:152.285px;
+    width:auto;
+    flex-grow:1;
+    border:solid;
+    border-left:0px;
+    border-right:0px;
+    border-top:0px;
+    display:flex;
+    justify-content: right;
+}
+#topRow, #secondRow, #thirdRow, #fourthRow, #bottomRow {
+    height:76.14px;
+    width:auto;
+    display:flex;
+}
+
+
+
+button {
+    border:solid;
+    border-width:0px;
+    padding:0px;
+    width:86.5px;
+    border-radius:30px;
+    margin:10px;
+    font-size:20px;
+}
+#zero {
+    width:193px;
+}
+.operator {    
+    background-color:orange;
+    color:white;
+}
+
+.num, #decimal {
+    background-color: darkgray;
+    color:white;
+}
+#results {
+    font-size:30px;
+    display:flex;
+    align-items:end;
+    margin-bottom:10px;
+    margin-right:10px;
+}
+#equals {
+    background-color:orange;
+    color:white;
+}
+.temp {
+    background-color:orangered;
+}
+
+
